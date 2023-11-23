@@ -1,0 +1,24 @@
+.completar__tarea:hover{
+  color: green;
+}
+
+.borrar__tarea:hover{
+  color: red;
+}
+
+.tarea {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+.tarea.completed {
+  text-decoration: line-through;
+  /* Otros estilos para tareas completadas */
+}
